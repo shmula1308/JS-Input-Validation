@@ -22,6 +22,10 @@ a {
   color: #edf3fa;
 }
 
+a:hover {
+  color: #f26c96;
+}
+
 address {
   font-style: normal;
   margin-bottom: 2em;
@@ -118,6 +122,14 @@ h2 {
   padding: 0 0 0 1em;
 }
 
+.active {
+  color: #f26c96;
+}
+
+.login__title {
+  word-spacing: -5px;
+}
+
 .login__subtitle {
   font-size: 0.9rem;
   margin-bottom: 1em;
@@ -144,6 +156,8 @@ h2 {
 
 .contact__title {
   margin-bottom: 1em;
+  word-spacing: -5px;
+  width: 80%;
 }
 
 .contact__address,
@@ -152,6 +166,9 @@ h2 {
 }
 
 .social-media__title {
+  margin-bottom: 0.5em;
+
+  word-spacing: -5px;
 }
 
 .social-media__link {
