@@ -31,6 +31,10 @@ address {
   margin-bottom: 2em;
 }
 
+small {
+  font-size: 0.6rem;
+}
+
 button {
   display: inline-block;
   border: none;
@@ -65,6 +69,7 @@ body {
 }
 
 .card-container {
+  position: relative;
   width: 55%;
   background: radial-gradient(
     circle at 50% 70%,
@@ -102,7 +107,6 @@ main {
 
 .main-container {
   display: flex;
-  /* background-color: chocolate; */
   width: 95%;
   max-width: 1100px;
   justify-content: space-evenly;
@@ -136,7 +140,6 @@ h2 {
 .login__input {
   width: 350px;
   padding: 0.5em;
-  margin-bottom: 0.5em;
   border-radius: 5px;
   background-color: #4e5c88;
   color: #edf3fa;
@@ -222,4 +225,17 @@ h2 {
   .contact {
     width: 230px;
   }
+}
+
+.alert {
+  position: absolute;
+  top: 15%;
+}
+
+.success {
+  color: greenyellow;
+}
+
+.error {
+  color: red;
 }

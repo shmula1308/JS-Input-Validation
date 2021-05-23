@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/script.js" defer></script>
+    
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
@@ -22,13 +22,17 @@
       </header>
       <main>
         <div class="main-container">
+          <h2 class="alert" ></h2>
             <section class="login">
               <h2 class="login__title">Just say Hello !</h2>
               <p class="login__subtitle">Let us know more about you !</p>
               <form class="login__form">
-                  <input type="text" class="login__input" placeholder="Username"><br>
-                  <input type="text" class="login__input" placeholder="Mail"><br>
-                  <input type="password" class="login__input" placeholder="Password"><br>
+                  <input type="text" class="login__input username" placeholder="Username"><br>
+                  <small>Enter only letters without spaces</small><br>
+                  <input type="text" class="login__input email"  placeholder="Mail"><br>
+                  <small>Enter only @gmail address</small><br>
+                  <input type="password" class="login__input password" placeholder="Password"><br>
+                  <small>Password must include 5 capital letters, 6 symbols and 2 hyphens</small><br>
                   <button type="button" class="btn">Submit</button>
               </form>
           </section>
@@ -56,5 +60,6 @@
         </div> 
       </main>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
