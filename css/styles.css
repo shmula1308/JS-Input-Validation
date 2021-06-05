@@ -32,7 +32,9 @@ address {
 }
 
 small {
+  display: inline-block;
   font-size: 0.6rem;
+  margin-bottom: 15px;
 }
 
 button {
